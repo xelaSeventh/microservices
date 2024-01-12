@@ -6,9 +6,9 @@ spring:
     name: msvc-student
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/studentsDb
+    url: jdbc:mysql://localhost:3306/
     username: root
-    password: 070714
+    password: password
   jpa:
     hibernate:
       ddl-auto: create
@@ -23,3 +23,4 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
+
